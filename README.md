@@ -9,6 +9,64 @@ Submission topic: **Introduction to RAG (Retrieval-Augmented Generation)**
 The target learner is a student who has just completed 12th grade in India, has a non-English-medium background, and has zero prior AI/ML exposure.
 
 ---
+## ⚙️ Setup & Installation
+**1.Create a virtual environment**
+
+On Windows PowerShell:
+python -m venv venv
+Activate it:
+venv\Scripts\Activate.ps1
+You should see:
+(venv) at the beginning of your terminal.
+
+**2.Install dependencies**
+pip install -r requirements.txt
+If the Ollama Python package is not already included:
+pip install ollama
+
+**3.🦙 Ollama Setup**
+ollama --version
+If Ollama is installed correctly, its version will be displayed.
+
+**4.Download Gemma 2B**
+Run:
+ollama pull gemma2:2b
+Check installed models:
+ollama list
+You should see:
+gemma2:2b
+
+**5.Test Gemma 2B**
+Run:
+ollama run gemma2:2b
+Then enter:
+Explain RAG in simple words
+If Gemma responds, Ollama is working correctly.
+Exit the Ollama session using:
+/bye
+
+## ▶️ Running the Project
+Go into the src directory:
+cd src
+Run the lesson generator:
+python main.py "RAG (Retrieval-Augmented Generation)"
+The terminal will display the workflow progress.
+
+Example:
+Generating lesson for topic: RAG (Retrieval-Augmented Generation)
+Running generate -> evaluate -> regenerate loop...
+Evaluating lesson against rubric checkpoints...
+Evaluating: grounded_accurate
+  -> PASS
+Evaluating: beginner_language
+  -> PASS
+Evaluating: no_unexplained_jargon
+  -> FAIL
+...
+Overall result: FAIL
+Regenerating lesson using evaluator feedback...
+If all checkpoints pass:
+Overall result: PASS
 
 ## 🚀 Key Features
 
