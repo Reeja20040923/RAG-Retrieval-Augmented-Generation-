@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2026-08-25T16:18:14.102880+00:00",
+    "topic": "RAG (Retrieval-Augmented Generation)",
+    "final_verdict": "PASS",
+    "attempts_used": 1,
+    "rejection_log": [
+      {
+        "attempt": 1,
+        "verdict": "PASS",
+        "failed_checks": [],
+        "reasons": {}
+      }
+    ]
+  }
+]
