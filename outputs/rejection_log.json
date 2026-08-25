@@ -1,0 +1,16 @@
+{
+  "topic": "RAG (Retrieval-Augmented Generation)",
+  "rubric_version": 1,
+  "final_lesson": "## What is RAG?\n\nImagine your favorite book collection. You have thousands of books, but finding a specific book can be difficult. What if you could use a magic magnifying glass that could show you the book you're looking for even from across the room?\n\nThat's exactly what the **Retrieval-Augmented Generation (RAG)** system does for computers!\n\n**Let's break it down:**\n\n* **Retrieval:** This is like the book search in your library. You tell the computer what you're looking for (the text in the book).\n* **Augmentation:** This is like the magical magnifying glass. The computer uses special techniques to find the book based on the information you gave.\n* **Generation:** This is when the computer comes up with a new piece of information, like the title of the book you found.\n\nRAG is a special system that helps computers to learn new things and solve problems just like you!\n\n**How it works:**\n\n1. **Give the computer a piece of text** to learn from. This could be a book, a song, or a website.\n2. The computer stores the text in a special memory called **a neural network**.\n3. The neural network works like a human brain, learning from the text and connecting different pieces of information together.\n4. When you ask the computer a question about the text, it uses its knowledge to find the answer in the neural network.\n5. The computer then **generates a new piece of text** based on what it learned. This could be a translation, a summary, or even a creative story!\n\n**Why it matters:**\n\nRAG has many benefits:\n\n* It can **learn and understand new information** in a variety of languages, even if you don't speak the language yourself.\n* It can **generate new ideas and stories** based on what you tell it.\n* It can be used to **translate languages** and understand different cultures.\n* It can be used to develop **new educational tools** and technologies.\n\n**Remember:**\n\n* RAG is a complex topic, but it's important to understand for the future.\n* This lesson is just a starting point. There are many more things to learn about RAG.\n* Be patient and keep practicing!",
+  "final_verdict": "PASS",
+  "attempts_used": 1,
+  "rejection_log": [
+    {
+      "attempt": 1,
+      "verdict": "PASS",
+      "failed_checks": [],
+      "reasons": {}
+    }
+  ],
+  "standing_warnings_applied": ""
+}
